@@ -31,3 +31,4 @@ public:
 	void insert(string element) // insert a node in the binary search
 	{
 		Node* newNode = new Node(element, NULL, NULL); //Allcote memory for the new node
+		newNode->info = element;    //Assign value to the data field of the new node
