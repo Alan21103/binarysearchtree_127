@@ -29,4 +29,5 @@ public:
 	}
 
 	void insert(string element) // insert a node in the binary search
-};
+	{
+		Node* newNode = new Node(element, NULL, NULL); //Allcote memory for the new node
